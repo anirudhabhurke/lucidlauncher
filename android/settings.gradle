@@ -1,0 +1,9 @@
+rootProject.name = 'lucidlauncher'
+include ':react-native-app-list-module'
+project(':react-native-app-list-module').projectDir = new File(rootProject.projectDir, '../react-native-app-list-module/android')
+include ':react-native-app-list-module'
+project(':react-native-app-list-module').projectDir = new File(rootProject.projectDir, '../react-native-app-list-module/android')
+include ':react-native-app-list-module'
+project(':react-native-app-list-module').projectDir = new File(rootProject.projectDir, '../react-native-app-list-module/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
