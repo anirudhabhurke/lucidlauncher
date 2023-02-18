@@ -1,0 +1,3 @@
+[submodule "react-native-android-apps-list"]
+	path = react-native-android-apps-list
+	url = git@github.com:anirudhabhurke/react-native-android-apps-list.git
